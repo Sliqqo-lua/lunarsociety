@@ -4556,7 +4556,7 @@ end
 local luascripts = luas:Sector("lua scripts", "Left")
 luascripts:Element("Scroll", "lua", {options = allluas, Amount = 5})
 luascripts:Element("Button", "load", {}, function()
-	loadstring(readfile("aristoislua\\"..values.luas["lua scripts"].lua.Scroll))()
+	loadstring(readfile("stormylua\\"..values.luas["lua scripts"].lua.Scroll))()
 end)
 
 local knife = skins:Sector("knife", "Left")
